@@ -1,0 +1,682 @@
+@media (min-width: 992px)
+{
+    footer
+    {
+        width: 100%;
+        height: 170px;
+
+        border-radius: 10px;
+
+        background-color:  rgb(119, 135, 153);
+        
+        position: relative;
+
+        margin-top: 50px;
+
+        bottom: 7px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 0px;
+ 
+    }
+
+    footer > p
+    {
+        font-size: 25px;
+        letter-spacing:normal;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    footer
+    {
+        height: 170px;
+
+        border-radius: 10px;
+
+        background-color:  rgb(119, 135, 153);
+        
+        position: relative;
+
+        margin-top: 50px;
+
+        left: 7px;
+        bottom: 7px;
+        right: 7px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 0px;
+ 
+    }
+
+    footer > p
+    {
+        font-size: 25px;
+        letter-spacing:normal;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+/*tablet and phone*/
+@media (max-width: 767px)
+{
+   
+    footer
+    {
+
+        height: fit-content;
+        padding: 10px;
+
+        border-radius: 10px;
+
+        background-color:  rgb(119, 135, 153);
+        
+        position: relative;
+        bottom: 7px;
+
+        margin-top: 100px;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 0px;
+ 
+    }
+
+    footer > p
+    {
+        font-size: 25px;
+        letter-spacing:normal;
+        color: rgb(255, 255, 255);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+    }
+}
+
+body
+{
+    background-color:rgb(193, 209, 216);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+Bar
+{
+    width:100%;
+    height: 60px;
+
+    border-radius: 10px;
+
+    background-color: rgb(119, 135, 153);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+titlle
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 500;
+
+    margin-left: 40px;
+
+}
+
+Bar > p
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: rgb(255, 255, 255);
+
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: 600;
+
+    margin-top: 40px;
+}
+
+InformationSection
+{
+    background-color: rgb(255, 255, 255);
+
+    width:1300px;
+    height:fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 60px;
+
+}
+
+InformationSection > Passengers 
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 50px;
+}
+
+InformationSection > Passengers > Passenger
+{
+    background-color: rgb(209, 224, 236);
+
+    width:500px;
+    height:100px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+}
+
+InformationSection > Passengers > Passenger:nth-child(2)
+{
+    border:solid;
+    border-color:rgb(162, 191, 214) ;
+}
+
+num
+{
+    color: rgb(156, 176, 199);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    margin-top: 10px;
+}
+
+Passenger > block
+{
+    width: 150px;
+    height: 40px;
+
+    border: solid;
+    border-color: rgb(237, 245, 252);
+
+    background-color:  rgb(237, 245, 252);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+block > label
+{
+    color: rgb(156, 176, 199);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    margin-top: -5px;
+}
+
+block > Name
+{
+    color: rgb(198, 211, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+block > Surname
+{
+    color: rgb(198, 211, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+Input
+{
+    color: rgb(198, 211, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    background-color: rgb(255, 255, 255);
+
+    border: none;
+    outline: none;
+
+    width: 150px;
+    height: 40px;
+
+    text-align: center;
+
+}
+
+seatSelection
+{
+    background-color: rgb(255, 255, 255);
+
+    width:1300px;
+    height:fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+
+    padding-bottom: 60px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+seatSelection > Plane
+{
+    margin-top: 50px;
+
+    width:400px;
+    height:fit-content;
+
+    border:solid;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    border-color: rgb(222, 227, 231);
+
+    background-color: rgb(238, 241, 241);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+seatSelection > Plane > seatId
+{
+    margin-top: 200px;
+
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+seatSelection > Plane > seatId > Row
+{
+    letter-spacing: 40px;
+
+    color: rgb(51, 88, 133);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+seatSelection > Plane > seatId > Row:nth-child(1)
+{
+    margin-left: 35px;
+}
+
+seatSelection > Plane > seatId > Row:nth-child(2)
+{
+    margin-left: 40px;
+}
+
+seatSelection > Plane > Row:nth-child(2)
+{
+    margin-top: -20px;
+}
+
+seatSelection > Plane > Row
+{
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+seatSelection > Plane > Row > p
+{
+    color: rgb(101, 139, 184);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+seatSelection > Plane > Row > Colu
+{
+    width: 160px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
+
+seatSelection > Plane > Row > Colu > button
+{
+    width: 40px;
+    height: 40px;
+
+    border-color: rgb(164, 186, 207);
+
+    background-color: rgb(241, 250, 252);
+}
+
+seatSelection > Plane > Row:nth-child(2) > Colu > button
+{
+    background-color: rgb(199, 209, 223);
+}
+
+seatSelection > Plane > Row:nth-child(12) > Colu > button
+{
+    background-color: rgb(199, 209, 223);
+}
+
+seatSelection > Plane > Row:nth-child(13) > Colu > button
+{
+    background-color: rgb(199, 209, 223);
+}
+
+seatSelection > Plane > Row:nth-child(3) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(4) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(5) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(6) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(7) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(8) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(9) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(10) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > Plane > Row:nth-child(11) > Colu > button
+{
+    background-color: rgb(133, 152, 182);
+}
+
+seatSelection > desc
+{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    color: rgb(66, 93, 124);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+seatSelection > desc > Box:nth-child(1)::after
+{
+    content: "Taken";
+    margin-left: 50px;
+}
+
+seatSelection > desc > Box:nth-child(2)::after
+{
+    content: "Selecting";
+    margin-left: 50px;
+}
+
+seatSelection > desc > Box:nth-child(3)::after
+{
+    content: "cost:20€ ";
+    margin-left: 50px;
+}
+
+seatSelection > desc > Box:nth-child(4)::after
+{
+    content: "cost:10€ ";
+    margin-left: 50px;
+}
+
+seatSelection > desc > Box:nth-child(5)::after
+{
+    content: "cost:None";
+    margin-left: 50px;
+}
+
+MoreInfo
+{
+    background-color:white ;
+
+    width: 1300px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+MoreInfo > Block
+{
+    background-color: rgb(199, 209, 223);
+
+    margin-top: 30px;
+
+    width: 370px;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(66, 93, 124);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    gap:30px;
+}
+
+MoreInfo > Block > input
+{
+    color: rgb(198, 211, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    background-color: rgb(255, 255, 255);
+
+    border: none;
+    outline: none;
+
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+}
+
+MoreInfo > Block > button
+{
+    color: rgb(198, 211, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    background-color: rgb(155, 102, 102);
+
+    border-color: rgb(128, 77, 77);;
+
+    width: 20px;
+    height: 10px;
+
+    text-align: center;
+}
+
+MoreInfo > Block > button:hover
+{
+
+
+    background-color: rgb(199, 104, 104);
+
+    border-color: rgb(148, 70, 70);;
+
+
+}
+
+MoreInfo > num:first-child
+{
+    margin-top: 50px;
+}
+
+MoreInfo > Cost
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+MoreInfo > Cost > button
+{
+    width: 100px;
+    height: 30px;
+
+    border: none;
+
+    color: rgb(156, 176, 199);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+MoreInfo > Cost > button:hover
+{
+    background-color: rgb(119, 135, 153);
+    color: rgb(255, 255, 255);
+}
+
+MoreInfo > Cost > p
+{
+    color: rgb(156, 176, 199);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+MoreInfo > Cost > input
+{
+    color: rgb(198, 211, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: rgb(255, 255, 255);
+
+    border: none;
+    outline: none;
+
+    width: 100px;
+    height: 30px;
+
+    text-align: center;
+}
+
+form > button
+{
+    width: 150px;
+    height: 40px;
+
+    border: none;
+
+    color: rgb(156, 176, 199);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form > button:hover
+{
+    background-color: rgb(119, 135, 153);
+    color: rgb(255, 255, 255);
+}
+
+Titl
+{
+    color: rgb(156, 176, 199);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
