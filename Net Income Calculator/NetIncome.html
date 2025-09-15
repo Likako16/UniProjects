@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="NetIncomeCalculator.js"></script>
+        <title>Net Income Calculator</title>
+    </head>
+    <body style="text-align: center; background-image: url(https://wallpapers.com/images/hd/landscape-white-minimalist-d0h9lllw9ds8g39m.jpg); background-position: center ;padding-top:5%;">
+    <div style="background-color: rgb(213, 209, 216); width: 500px; margin-left: 520px ; margin:auto; padding: 1%; border:solid; border-color:rgb(10, 2, 29)  ;border-radius: 30px;">
+      <h1 style="color: rgb(10, 2, 29) ;font-style: italic; font-size: 30px;"> Calculating Net Income. <br>Fill the following information ! </h1> 
+      <h1 style="color: rgb(10, 2, 29) ;font-style: italic; font-size: 20px;">Income : </h1>
+      <textarea id="income" rows="1" style="text-align: center; border:2px solid; resize: none; width: 20%; " ></textarea> <br>
+      <h1 style="color: rgb(10, 2, 29) ;font-style: italic; font-size: 20px;">Date of Birth : </h1>
+      <input type="date" id="BirthDate" style="border:2px solid; width: 20%;"> </input> <br>
+      <h1 style="color: rgb(10, 2, 29) ;font-style: italic; font-size: 20px;">No of children : </h1>
+      <textarea id="children" rows="1" style="text-align: center; border:2px solid; resize: none; width: 20%;"></textarea> <br><br>
+      <button onclick="Calculate()" type="button" id="Calc" style="color:white; background-color: rgb(10, 2, 29); font-style:italic ; font-size: 15px; border-radius:5px ;">Calculate</button><br><br>
+      <textarea id="NetIncome" rows="1" style="text-align: center; border:2px solid; resize: none; width: 20%; background-color:rgb(10, 2, 29) ; color: aliceblue;" disabled></textarea> 
+    </div> 
+    </body>
+</html>
